@@ -66,4 +66,5 @@ public class TimeEntryController {
         summary.record(timeEntryRepo.list().size());
         return new ResponseEntity(null, HttpStatus.NO_CONTENT);
     }
+
 }
